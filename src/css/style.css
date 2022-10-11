@@ -1,0 +1,14 @@
+body{
+  background-image: url("../images/fundo-site.jpg");
+  font-family: 'VT323', monospace;
+}
+
+.cartao{
+  display: flex;
+  flex-direction: column;
+}
+
+.minhas-informacoes{
+  color: #FFF;
+  text-align: center;
+}
