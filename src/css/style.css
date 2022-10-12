@@ -1,14 +1,99 @@
 body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
   background-image: url("../images/fundo-site.jpg");
   font-family: 'VT323', monospace;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cartao{
-  display: flex;
-  flex-direction: column;
+  width: 350px;
+  border: 5px solid rgba(153, 15, 207, 0.788);
+  border-radius: 10px;
 }
 
 .minhas-informacoes{
-  color: #FFF;
   text-align: center;
+  border: 5px solid rgba(17, 172, 32, 0.788);
+  border-radius: 5px;
+  margin: 2px 2px 5px;
+}
+
+.minhas-informacoes img{
+  margin: 5px;
+  border: 5px solid rgba(17, 172, 32, 0.788);
+  border-radius: 50%;
+  width: 8rem;
+}
+
+.nome, .cargo{
+  margin: 5px auto;
+}
+
+.conteudo{
+  border: 5px solid rgba(172, 105, 5, 0.904);
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.abas{
+  display: flex;
+  list-style-type: none;
+  border: 5px solid rgba(18, 39, 224, 0.781);
+  border-radius: 5px;
+  margin: 2px;
+  padding: 0;
+}
+
+.aba{
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .aba:hover{
+  background-color: rgba(150, 150, 150, 0.5);
+} */
+
+.aba img{
+  width: 2rem;
+}
+
+.sobre{
+  height: 220px;
+  background-color: rgba(150, 150, 150, 0.5);
+  text-align: justify;
+  padding: 5px;
+  border: 5px solid rgba(226, 230, 10, 0.781);
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.minhas-redes{
+  height: 220px;
+  display: none;
+  text-align: center;
+  padding: 5px;
+  border: 5px solid rgba(226, 230, 10, 0.781);
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.sobre h3{
+  text-align: center;
+}
+
+.frontend{
+  color: rgba(17, 172, 32, 0.788);
+}
+
+.hifenizar {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
