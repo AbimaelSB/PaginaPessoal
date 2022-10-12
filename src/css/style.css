@@ -4,6 +4,7 @@ body{
   height: 100vh;
   background-image: url("../images/fundo-site.jpg");
   font-family: 'VT323', monospace;
+  font-size: 1rem;
   color: #FFF;
   display: flex;
   justify-content: center;
@@ -17,6 +18,7 @@ body{
 }
 
 .minhas-informacoes{
+  background-color: black;
   text-align: center;
   border: 5px solid rgba(17, 172, 32, 0.788);
   border-radius: 5px;
@@ -41,6 +43,7 @@ body{
 }
 
 .abas{
+  background-color: black;
   display: flex;
   list-style-type: none;
   border: 5px solid rgba(18, 39, 224, 0.781);
@@ -56,15 +59,17 @@ body{
   align-items: center;
 }
 
-/* .aba:hover{
+.aba:hover{
   background-color: rgba(150, 150, 150, 0.5);
-} */
+  cursor: pointer;
+}
 
 .aba img{
   width: 2rem;
 }
 
 .sobre{
+  font-size: 1.2rem;
   height: 220px;
   background-color: rgba(150, 150, 150, 0.5);
   text-align: justify;
@@ -72,6 +77,22 @@ body{
   border: 5px solid rgba(226, 230, 10, 0.781);
   border-radius: 5px;
   margin: 2px;
+  overflow-y: scroll;
+}
+
+.sobre::-webkit-scrollbar {
+  width: 12px;
+}
+
+.sobre::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+.sobre::-webkit-scrollbar-thumb {
+  
+  background-color: blueviolet;
+  border-radius: 20px;
+  border: 3px solid black;
 }
 
 .minhas-redes{
