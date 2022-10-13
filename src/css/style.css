@@ -23,7 +23,7 @@ img{
 }
 
 ul{
-  list-style: none;
+  list-style-type: none;
 }
 
 a{
@@ -57,6 +57,7 @@ a{
 }
 
 .aba{
+  cursor: pointer;
   padding: 10px 0;
   flex: 1 0 auto;
   display: flex;
@@ -75,7 +76,6 @@ a{
 
 .aba:hover{
   background-color: #414141;
-  cursor: pointer;
 }
 
 .aba img{
@@ -125,7 +125,7 @@ a{
 }
 
 .minhas-redes{
-  display: flex;
+  display: none;
   text-align: center;
 }
 
@@ -133,7 +133,6 @@ a{
   display: flex;
   flex-direction: column;
   gap: 10px;
-  align-items: center;
 }
 
 .lista li a{
