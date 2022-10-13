@@ -15,7 +15,6 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
 }
 
 img{
@@ -37,6 +36,7 @@ a{
   border: 5px solid #e126d9;
   border-radius: 10px;
   overflow: hidden;
+  margin: 30px;
 }
 
 .minhas-informacoes{
