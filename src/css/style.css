@@ -51,6 +51,11 @@ a{
 .minhas-informacoes img{
   border-radius: 50%;
   width: 8rem;
+  border: 5px solid rgb(63, 3, 97);
+}
+
+.cargo{
+  color: rgb(117, 119, 119);
 }
 
 .abas{
